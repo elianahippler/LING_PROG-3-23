@@ -1,25 +1,29 @@
 <?php
-    $name = "Guilherme";
-    $age = 20;
-
-    echo $name; 
+    
+    $name = "Eliana Cristina";
+    echo "Nome: $name"; 
     echo "</br>";
-    echo $age; 
+    
+    $age = 17;
+    echo "Idade: $age";
     echo "<hr>";
 
-    $b = true; /*boolean*/
-    echo gettype($b);
+    /* tipos de variáveis */
+
+    $resposta = true; /*boolean*/
+    echo gettype($resposta);
     echo "<hr>";
 
-    $nasc = 1994; /*integer*/
-    echo gettype($nasc);
+    $ano = 1994; /*integer*/
+    echo gettype($ano);
     echo "<hr>";
     
-    $nome = "Eliana"; /*string*/
-    echo gettype($nome);
+    $palavra = "Eliana"; /*string*/
+    echo gettype($palavra);
     echo "<hr>";
 
-    $num = 27.09; /*float|double*/
-    echo gettype($num);
+    $num_dec = 27.09; /*float | double*/
+    echo gettype($num_dec);
     echo "<hr>";
+
 ?>
