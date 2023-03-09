@@ -6,7 +6,7 @@
     } else {
         echo 'Seja bem vindo';
     }
-
+    
 
     $a = 2; //Exemplo 2
     $b = 1;
